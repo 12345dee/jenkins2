@@ -13,7 +13,7 @@ checkout scm
 stage('Install') {
 steps {
 sh 'node -v || true'
-sh 'npm ci'
+sh 'npm install'
 }
 }
 stage('Test') {
